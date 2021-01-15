@@ -2,6 +2,21 @@
   text-align: center;
 }
 
+body{
+  padding:20px
+}
+.btn{
+  padding:10px;
+  border: none;
+  margin-left: 10px;
+  border-radius: 5px;
+  background-color: blanchedalmond;
+}
+form{
+  width: 1200px;
+  margin: 20px auto;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -34,5 +49,43 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+.form{
+  padding:10px;
+  border-radius:5px;
+  width:80%;
+  margin:0 auto;
+
+}
+
+.container{
+  width:1200px;
+  margin:20px auto;
+  columns: 4;
+  column-gap: 5px;
+}
+
+.box{
+   width:100%;
+   margin: 0 0 5px;
+   /* padding: 10px; */
+   background: white;
+   overflow: hidden;
+   /* border: 2px blue solid; */
+   
+
+}
+img{
+  max-width: 100%;
+}
+
+@media (max-width:1200px){
+
+  .container{
+    columns: 3;
+    width: calc(100%-40px);
+    box-sizing: border-box;
   }
 }
